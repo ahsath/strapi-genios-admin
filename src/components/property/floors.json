@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_property_floors",
+  "info": {
+    "displayName": "floors",
+    "icon": "layer-group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "floor": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    }
+  }
+}

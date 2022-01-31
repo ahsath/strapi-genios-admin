@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_property_spaces",
+  "info": {
+    "displayName": "spaces",
+    "icon": "ruler-combined",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "floor": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

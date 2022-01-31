@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_property_amenity",
+  "info": {
+    "displayName": "amenity",
+    "icon": "umbrella-beach",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amenities": {
+      "displayName": "amenities",
+      "type": "component",
+      "repeatable": true,
+      "component": "property.amenities"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

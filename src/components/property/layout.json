@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_property_layouts",
+  "info": {
+    "displayName": "layout",
+    "icon": "pencil-ruler",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "floors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "property.floors"
+    },
+    "spaces": {
+      "displayName": "spaces",
+      "type": "component",
+      "repeatable": true,
+      "component": "property.spaces",
+      "required": true
+    }
+  }
+}

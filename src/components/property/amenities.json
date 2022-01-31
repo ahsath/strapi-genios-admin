@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_property_amenities",
+  "info": {
+    "displayName": "amenities",
+    "icon": "binoculars"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

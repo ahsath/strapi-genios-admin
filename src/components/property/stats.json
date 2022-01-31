@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_property_stats",
+  "info": {
+    "displayName": "stats",
+    "icon": "chart-pie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stat": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build && strapi admin:reset-user-password --email=ahsath@gmail.com --password=8Z<+#-bzhsVUvt[y",
+    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {

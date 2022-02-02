@@ -6,8 +6,8 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi && strapi admin:reset-user-password --email=ahsath@gmail.com --password=8Z<+#-bzhsVUvt[y"
+    "build": "strapi build && strapi admin:reset-user-password --email=ahsath@gmail.com --password=8Z<+#-bzhsVUvt[y",
+    "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.0.6",

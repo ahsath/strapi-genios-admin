@@ -134,6 +134,15 @@
       },
       "type": "string",
       "required": true
+    },
+    "linkDisplayText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
